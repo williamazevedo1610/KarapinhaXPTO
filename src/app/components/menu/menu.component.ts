@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrl: './menu.component.css'
 })
 export class MenuComponent {
+  sideBarVisible = false;
+
+  mostrarSideBar() {
+    this.sideBarVisible = true;
+  }
+
+  fecharSideBar() {
+    this.sideBarVisible = false;
+  }
 
 }
