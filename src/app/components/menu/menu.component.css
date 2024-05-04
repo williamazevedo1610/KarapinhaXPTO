@@ -19,7 +19,7 @@
 }
 
 .menuBar li{
-    height: 50px;
+    height: 70px;
 }
 
 .menuBar a{
@@ -62,4 +62,24 @@
 
 #sideBar a{
     width: 100%;
+}
+
+
+.menuButton{
+    display: none;
+}
+
+@media(max-width: 800px) {
+    .hideOnMobile{
+        display: none;
+    }   
+    .menuButton{
+        display: block;
+    }
+}
+
+@media(max-width: 400px) {
+    #sideBar{
+        width: 100%;
+    }   
 }
