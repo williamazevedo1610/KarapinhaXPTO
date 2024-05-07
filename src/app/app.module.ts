@@ -9,16 +9,33 @@ import { LoginComponent } from './components/login/login.component';
 import { CadastroComponent } from './components/cadastro/cadastro.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { RodapeComponent } from './components/rodape/rodape.component';
+import { Route, Routes } from '@angular/router';
+import { RouterModule } from '@angular/router';
+import { MainComponent } from './components/main/main.component';
+
+const routes : Routes =[
+
+  {path: 'login' , component: LoginComponent},
+  {path: 'cadastro' , component: CadastroComponent},
+  {path: '', redirectTo: '/login' , pathMatch: 'full'}, 
+
+
+];
 
 @NgModule({
+
+  exports: [RouterModule],
+
   declarations: [
     AppComponent,
     LoginComponent,
     CadastroComponent,
     MenuComponent,
-    RodapeComponent
+    RodapeComponent,
+    MainComponent
   ],
   imports: [
+    RouterModule.forRoot(routes),
     BrowserModule,
     AppRoutingModule
   ],
