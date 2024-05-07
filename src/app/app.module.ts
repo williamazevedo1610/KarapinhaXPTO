@@ -12,6 +12,7 @@ import { RodapeComponent } from './components/rodape/rodape.component';
 import { Route, Routes } from '@angular/router';
 import { RouterModule } from '@angular/router';
 import { MainComponent } from './components/main/main.component';
+import { ServicosTratamentosComponent } from './components/servicos-tratamentos/servicos-tratamentos.component';
 
 const routes : Routes =[
 
@@ -32,7 +33,8 @@ const routes : Routes =[
     CadastroComponent,
     MenuComponent,
     RodapeComponent,
-    MainComponent
+    MainComponent,
+    ServicosTratamentosComponent
   ],
   imports: [
     RouterModule.forRoot(routes),
