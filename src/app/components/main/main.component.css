@@ -1,0 +1,9 @@
+
+
+.carrossel{
+    margin-top: 50px; /* Espaçamento no topo */
+    margin-left: auto; /* Centralizar na horizontal */
+    margin-right: auto; /* Centralizar na horizontal */
+    max-width: 800px; /* Largura máxima para centralização */
+
+}

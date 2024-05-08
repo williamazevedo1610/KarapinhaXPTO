@@ -2,7 +2,7 @@
 <nav class="menuBar">
     <ul [ngStyle]="{'display': sideBarVisible ? 'flex' : 'none'}" id="sideBar">
         <li (click)="fecharSideBar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-        <li><a href="#">Karapinha XPTO</a></li>
+        <li><a [routerLink]="['/main']">Karapinha XPTO</a></li>
         <li><a href="#">Serviços</a></li>
         <li><a href="#">Sobre nós</a></li>
         <li><a href="#">Login</a></li>
@@ -11,10 +11,10 @@
 
 <nav class="menuBar">
 <ul>
-    <li><a href="#">Karapinha XPTO</a></li>
+    <li><a [routerLink]="['/main']">Karapinha XPTO</a></li>
     <li class="hideOnMobile"><a href="#">Serviços</a></li>
     <li class="hideOnMobile"><a href="#">Sobre nós</a></li>
-    <li class="hideOnMobile"><a href="#">Login</a></li>
+    <li class="hideOnMobile"><a [routerLink]="['/login']">Login</a></li>
     <li class="menuButton" (click)="mostrarSideBar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
 </ul>
 </nav>

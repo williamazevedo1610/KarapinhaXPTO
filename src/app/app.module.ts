@@ -17,11 +17,10 @@ import { ServicosTratamentosComponent } from './components/servicos-tratamentos/
 const routes : Routes =[
 
   {path: 'login' , component: LoginComponent},
-  {path: 'cadastro' , component: CadastroComponent},
-  {path: '', redirectTo: '/login' , pathMatch: 'full'}, 
+  {path: 'cadastro' , component: CadastroComponent}, 
   {path: 'servicos', component: ServicosTratamentosComponent},
   {path: 'main', component: MainComponent},
-
+  {path: '', redirectTo: '/main' , pathMatch: 'full'},
 
 ];
 
