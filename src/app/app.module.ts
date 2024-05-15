@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
-
+import { PasswordModule } from 'primeng/password';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -40,7 +40,8 @@ const routes : Routes =[
   imports: [
     RouterModule.forRoot(routes),
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    PasswordModule
   ],
   providers: [
     provideClientHydration()
