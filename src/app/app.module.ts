@@ -13,6 +13,7 @@ import { Route, Routes } from '@angular/router';
 import { RouterModule } from '@angular/router';
 import { MainComponent } from './components/main/main.component';
 import { ServicosTratamentosComponent } from './components/servicos-tratamentos/servicos-tratamentos.component';
+import { GalleryPhotosComponent } from './components/gallery-photos/gallery-photos.component';
 
 const routes : Routes =[
 
@@ -35,7 +36,8 @@ const routes : Routes =[
     MenuComponent,
     RodapeComponent,
     MainComponent,
-    ServicosTratamentosComponent
+    ServicosTratamentosComponent,
+    GalleryPhotosComponent
   ],
   imports: [
     RouterModule.forRoot(routes),
