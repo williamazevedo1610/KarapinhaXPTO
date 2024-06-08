@@ -1,9 +1,12 @@
-.services {
-    background: #ffffff;
-    padding: 50px;
-    text-align: center;
-  }
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
   
-  .service-item {
-    margin: 20px 0;
-  }
