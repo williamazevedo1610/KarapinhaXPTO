@@ -1,12 +1,20 @@
 .card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  margin-bottom: 30px; /* Espaçamento inferior entre os cards */
 }
 
-.card-body {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
+.card img {
+  height: 200px; /* Ajuste a altura das imagens, se necessário */
+  object-fit: cover; /* Para garantir que a imagem se ajuste ao espaço */
 }
-  
+
+.booking-btn {
+  background-color: #722F25; /* Cor principal do KarapinhaXPTO */
+  color: #fff; /* Cor do texto */
+  border: none; /* Remover borda */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Transições suaves */
+}
+
+.booking-btn:hover {
+  background-color: #563d2d; /* Cor mais escura para o efeito hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adicionar sombra ao passar o mouse */
+}
