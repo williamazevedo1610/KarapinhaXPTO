@@ -55,4 +55,41 @@
   }
   
   
-  
+  /* Estilo personalizado para o botão "Fazer Marcação" */
+.booking-btn {
+  background-color: #722F25; /* Cor principal do KarapinhaXPTO */
+  color: #fff; /* Cor do texto */
+  border: none; /* Remover borda */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Transições suaves */
+}
+
+.booking-btn:hover {
+  background-color: #563d2d; /* Cor mais escura para o efeito hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adicionar sombra ao passar o mouse */
+}
+
+/* Estilo personalizado para o botão "Saiba Mais" */
+.btn-custom {
+  background-color: #722F25; /* Cor principal do KarapinhaXPTO */
+  color: #fff; /* Cor do texto */
+  border: none; /* Remover borda */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Transições suaves */
+}
+
+.btn-custom:hover {
+  background-color: #563d2d; /* Cor mais escura para o efeito hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adicionar sombra ao passar o mouse */
+}
+
+/* Estilo personalizado para o botão "Ver Mais" */
+.btn-more {
+  background-color: #722F25; /* Cor principal do KarapinhaXPTO */
+  color: #fff; /* Cor do texto */
+  border: none; /* Remover borda */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Transições suaves */
+}
+
+.btn-more:hover {
+  background-color: #563d2d; /* Cor mais escura para o efeito hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adicionar sombra ao passar o mouse */
+}
