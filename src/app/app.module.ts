@@ -14,6 +14,7 @@ import { RouterModule } from '@angular/router';
 import { MainComponent } from './components/main/main.component';
 import { ServicosTratamentosComponent } from './components/servicos-tratamentos/servicos-tratamentos.component';
 import { GalleryPhotosComponent } from './components/gallery-photos/gallery-photos.component';
+import { AdminMenuComponent } from './AdminComp/admin-menu/admin-menu.component';
 
 const routes : Routes =[
 
@@ -37,7 +38,8 @@ const routes : Routes =[
     RodapeComponent,
     MainComponent,
     ServicosTratamentosComponent,
-    GalleryPhotosComponent
+    GalleryPhotosComponent,
+    AdminMenuComponent
   ],
   imports: [
     RouterModule.forRoot(routes),
